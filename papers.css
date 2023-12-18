@@ -279,6 +279,55 @@ body{
     }
 }
 
+/*text-container 애니메이션*/
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.text-container {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.text-container1 {
+    animation: slideIn 1.5s ease-in-out 0s forwards;
+}
+
+.text-container2 {
+    animation: slideIn 1.5s ease-in-out 0.5s forwards;
+}
+
+.text-container3 {
+    animation: slideIn 1.5s ease-in-out 1s forwards;
+}
+
+.text-container4 {
+    animation: slideIn 1.5s ease-in-out 1.5s forwards;
+}
+
+.text-container5 {
+    animation: slideIn 1.5s ease-in-out 2s forwards;
+}
+
+.text-container6 {
+    animation: slideIn 1.5s ease-in-out 2.5s forwards;
+}
+
+.text-container7 {
+    animation: slideIn 1.5s ease-in-out 3s forwards;
+}
+
+.text-container8 {
+    animation: slideIn 1.5s ease-in-out 3.5s forwards;
+}
+
 
 /*푸터*/
 footer{
